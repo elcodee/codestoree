@@ -39,6 +39,9 @@ function ProjectCard({ project }) {
           html: "Tunggu Sebentar, lagi menghubungi admin...",
           timer: 5000,
           timerProgressBar: true,
+          showCancelButton: false,
+          showCloseButton: false,
+          showConfirmButton: false,
 //           didOpen: () => {
 //             Swal.showLoading();
 //           },
