@@ -39,9 +39,9 @@ function ProjectCard({ project }) {
           html: "Tunggu Sebentar, lagi menghubungi admin...",
           timer: 5000,
           timerProgressBar: true,
-          didOpen: () => {
-            Swal.showLoading();
-          },
+//           didOpen: () => {
+//             Swal.showLoading();
+//           },
           willClose: () => {
             clearInterval(timerInterval);
           },
